@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.card {
+    @apply rounded-md shadow-md p-2 bg-white;
+}
+
+.form-group {
+    @apply mb-8 flex flex-col w-full;
+}
+
+.input-label {
+    @apply font-semibold capitalize;
+}
+
+.input-group {
+    @apply appearance-none border rounded py-2 px-3 text-gray-700 leading-tight;
+}
+
+.active-class {
+    @apply font-bold text-indigo-800
+}
